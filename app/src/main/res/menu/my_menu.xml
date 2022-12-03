@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/item1"
+        android:title= " Choice 1"
+        android:icon="@drawable/ic_baseline_comment_24"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/Drinksmenu"
+        android:title="Drinks"
+        app:showAsAction="never">
+    <menu>
+        <item
+            android:id="@+id/subitem1"
+            android:title="pepsi"
+
+            app:showAsAction="never"/>
+
+
+        <item
+            android:id="@+id/subitem2"
+            android:title="7up"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/subitem3"
+            android:title="mirinda"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/subitem4"
+            android:title="mountain dew"
+            app:showAsAction="never"/>
+    </menu>
+    </item>
+    <item android:id="@+id/snacksmenu"
+        android:title="Snacks"
+        app:showAsAction="never">
+
+
+        <menu>
+            <item
+                android:id="@+id/subitem5"
+                android:title="shawirma"
+                app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/subitem6"
+            android:title="zinger"
+            app:showAsAction="never"/>
+
+            <item
+                android:id="@+id/subitem7"
+                android:title="pizza"
+                app:showAsAction="never"/>
+
+            <item
+                android:id="@+id/subitem8"
+                android:title="Burger"
+                app:showAsAction="never"/>
+    </menu>
+</item>
+
+</menu>
+
+
+
